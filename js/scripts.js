@@ -20,29 +20,35 @@ $(function() {
 
     if (question1Answer === "frontEnd") {
       $(".trackSuggestions").hide();
-      $("#cssDesign").show();
+      $("#css").show();
+      $("#design").show();
     }
     else if (question2Answer === "mobile"){
       $(".trackSuggestions").hide();
-      $("#javaAndroid").show();
+      $("#java").show();
+      $("#android").show();
     }
     else if (question3Answer === "yes") {
       if (question4Answer == "small") {
         $(".trackSuggestions").hide();
-        $("#rubyRails").show();
+        $("#ruby").show();
+        $("#rails").show();
       }
       else if (question4Answer === "large") {
         $(".trackSuggestions").hide();
-        $("#cSharpNet").show();
+        $("#cSharp").show();
+        $("#net").show();
       }
     }
     else if (question2Answer === "desktop" && question3Answer === "no" && question5Answer === "management") {
       $(".trackSuggestions").hide();
-      $("#phpDrupal").show();
+      $("#php").show();
+      $("#drupal").show();
     }
     else if (question2Answer === "desktop" && question3Answer === "no" && question5Answer === "interactive"){
       $(".trackSuggestions").hide();
-      $("#phpReact").show();
+      $("#php").show();
+      $("#react").show();
     }
   });
 });

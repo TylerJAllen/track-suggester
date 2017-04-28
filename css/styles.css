@@ -1,34 +1,43 @@
 body {
   margin: 2%;
-  background-color: #1DADA0;
+  background-color: #08B497;
 }
 
-.containerForTitle-styles {
+.containerForTitle {
   width: 100%;
   height: 15%;
   text-align: center;
+  color: white;
   border: 1px solid black;
 }
 
-.columnForQuestions-styles {
+.columnForQuestions {
   width: 50%;
   height: 100%;
   float: left;
-  border: 1px solid black;
+  padding-left: 2%;
+  padding-right: 2%;
+  /*border: 1px solid black;*/
   word-wrap: normal;
+  color: white;
 }
 
-.columnForSuggestions-styles {
+.columnForSuggestions {
   /*width: 50%;
   height: 100%;*/
   border: 1px solid black;
 }
 
-.rowForQuestion-styles {
+.rowForQuestions {
 
 }
 
+.rowForSuggestions {
+  height: 500px;
+  text-align: center;
+  color: white;
+}
 
-#cssDesign, #rubyRails, #cSharpNet, #javaAndroid, #phpReact, #phpDrupal {
+#css, #design, #ruby, #rails, #cSharp, #net, #java, #android, #php, #react, #php, #drupal {
   display: none;
 }
