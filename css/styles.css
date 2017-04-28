@@ -1,20 +1,7 @@
-#formQuestionTwo {
+#formQuestionTwo, #formQuestionThree, #formQuestionFour, #formQuestionFive {
   display: none;
 }
 
-#formQuestionThree {
-  display: none;
-}
-
-#formQuestionFour {
-  display: none;
-}
-
-#formQuestionFive {
-  display: none;
-}
-
-
-#cssDesign {
+#cssDesign, #rubyRails, #cSharpNet, #javaAndroid, #phpReact, #phpDrupal {
   display: none;
 }
