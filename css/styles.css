@@ -1,7 +1,13 @@
-/*#formQuestionTwo, #formQuestionThree, #formQuestionFour, #formQuestionFive {
-  display: none;
-}*/
+body {
+  margin: 2%;
+  background-color: #1DADA0;
+}
 
+.container-styles {
+  height: 100%;
+  border: 20px solid #0AFC02;
+  border-radius: 5px;
+}
 #cssDesign, #rubyRails, #cSharpNet, #javaAndroid, #phpReact, #phpDrupal {
   display: none;
 }
