@@ -8,9 +8,9 @@
 
 //Front-End
 $(function() {
-
   $("#formSurvey").submit(function(event) {
     event.preventDefault();
+    //Local Variables
     var question1Answer = $("input:radio[name=question1]:checked").val();
     var question2Answer = $("input:radio[name=question2]:checked").val();
     var question3Answer = $("input:radio[name=question3]:checked").val();
@@ -22,34 +22,27 @@ $(function() {
       $(".trackSuggestions").hide();
       $("#cssDesign").show();
     }
-    else if (question2Answer === "yes") {
-      if (question3Answer == "small") {
+    else if (question2Answer === "mobile"){
+      $(".trackSuggestions").hide();
+      $("#javaAndroid").show();
+    }
+    else if (question3Answer === "yes") {
+      if (question4Answer == "small") {
         $(".trackSuggestions").hide();
         $("#rubyRails").show();
       }
-      else if (question3Answer === "large") {
+      else if (question4Answer === "large") {
         $(".trackSuggestions").hide();
         $("#cSharpNet").show();
       }
     }
-
-    else if (question2Answer === "no" && question4Answer === "mobile"){
-      $(".trackSuggestions").hide();
-      $("#javaAndroid").show();
-    }
-    else if (question2Answer === "no" && question4Answer === "desktop" && question5Answer === "management") {
+    else if (question2Answer === "desktop" && question3Answer === "no" && question5Answer === "management") {
       $(".trackSuggestions").hide();
       $("#phpDrupal").show();
     }
-    else if (question2Answer === "no" && question4Answer === "desktop" && question5Answer === "interactive"){
+    else if (question2Answer === "desktop" && question3Answer === "no" && question5Answer === "interactive"){
       $(".trackSuggestions").hide();
       $("#phpReact").show();
-    }
-    else {
-      alert(question2Answer);
-      alert(question3Answer);
-      alert(question4Answer);
-      alert(question5Answer);
     }
   });
 });
