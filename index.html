@@ -9,78 +9,93 @@
     <title>Track Suggester</title>
   </head>
   <body>
-    <div class="container container-styles">
+    <div class="container containerForTitle-styles">
       <h1>Please select the answer that you agree with the most</h1>
-      <form id="formSurvey">
-        <h2>Do you want to be a front-end developer or a back-end developer?</h2>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="frontEnd" required>
-            Front-End
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question1" value="backEnd" required>
-            Back-End
-          </label>
-        </div>
-        <h2>Do you want to work with desktop and mobile applications or mobile only applications?</h2>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question2" value="desktop" required>
-            Desktop and mobile
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question2" value="mobile" required>
-            Mobile only
-          </label>
-        </div>
-        <h2>Does size of the company you work for matter?</h2>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question3" value="yes" required>
-            Yes, size matters
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question3" value="no" required>
-            No, size does not matter
-          </label>
-        </div>
-        <h2>Do you want to work for a small company (like a start-up) or a large company (like Intel or a government agency)?</h2>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question4" value="small" required>
-            Small company
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question4" value="large" required>
-            Large company
-          </label>
-        </div>
-        <h2>Do you want to make user interactive websites or content management software?</h2>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question5" value="interactive" required>
-            User interative websites
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question5" value="management" required>
-            Content management software
-          </label>
-        </div>
-        <button type="submit" class="btn">Go!</button>
-      </form>
-
-
+    </div>
+    <div class="row row">
+    <div class="col-md-7 columnForQuestions-styles"> <!--open container-->
+      <form id="formSurvey"> <!-- open form-->
+        <div class="row rowForQuestion-styles"> <!--open row for question 1-->
+          <h2>Do you want to be a front-end developer or a back-end developer?</h2>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="frontEnd" required>
+              Front-End
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question1" value="backEnd" required>
+              Back-End
+            </label>
+          </div>
+        </div> <!--close row for question 1-->
+        <div class="row rowForQuestion-styles"> <!--open row for question 2-->
+          <h2>Do you want to work with desktop and mobile applications or mobile only applications?</h2>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question2" value="desktop" required>
+              Desktop and mobile
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question2" value="mobile" required>
+              Mobile only
+            </label>
+          </div>
+        </div> <!--close row for question 2-->
+        <div class="row rowForQuestion-styles"> <!--open row for question 3-->
+          <h2>Does size of the company you work for matter?</h2>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question3" value="yes" required>
+              Yes, size matters
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question3" value="no" required>
+              No, size does not matter
+            </label>
+          </div>
+        </div> <!-- close row for question 3-->
+        <div class="row rowForQuestion-styles"> <!--open row for question 4-->
+          <h2>Do you want to work for a small company (like a start-up) or a large company (like Intel or a government agency)?</h2>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question4" value="small" required>
+              Small company
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question4" value="large" required>
+              Large company
+            </label>
+          </div>
+        </div> <!-- close row for question 4-->
+        <div class="row rowForQuestion-styles"> <!--open row for question 5-->
+          <h2>Do you want to make user interactive websites or content management software?</h2>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question5" value="interactive" required>
+              User interative websites
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="question5" value="management" required>
+              Content management software
+            </label>
+          </div>
+        </div> <!--close row for question 5-->
+        <div class="row rowForQuestion-styles"> <!--open row for submit button-->
+          <button type="submit" class="btn">Go!</button>
+        </div> <!--close row for submit button-->
+      </form> <!--close form-->
+    </div> <!--close containerForQuestions-->
+    <div class="col-md-5 columnForSuggestions-styles"> <!--open columnForSuggestions-->
       <div class="trackSuggestions" id="cssDesign">
         <p>CSS/Design</p>
       </div>
@@ -99,6 +114,6 @@
       <div class="trackSuggestions" id="phpDrupal">
         <p>PHP/Drupal</p>
       </div>
-    </div>
+    </div> <!--close columnForSuggestions-->
   </body>
 </html>
