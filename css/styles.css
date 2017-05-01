@@ -1,5 +1,4 @@
 body {
-  /*margin: 2%;*/
   background-color: #0B937C;
 }
 
@@ -8,7 +7,6 @@ h1 {
 }
 
 #containerForTitle {
-  /*width: 100%;*/
   height: 150px;
   padding-top: 3%;
   text-align: center;
@@ -17,14 +15,6 @@ h1 {
   background-color: #6C6C6C;
   border-bottom: 5px solid white;
 }
-
-#containerForBody {
-
-}
-
-#row-styles{
-}
-
 
 .columnForQuestions {
   width: 50%;
@@ -40,6 +30,8 @@ h1 {
 .columnForSuggestions {
   width: 50%;
   height: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .rowForQuestions {
@@ -49,15 +41,24 @@ h1 {
 
 #buttonRow {
   text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+
+#button-styles {
+  height: 40px;
+  width: 75%;
+  background-color: #0B937C;
+  border: 3px groove white;
 }
 
 .rowForSuggestions {
-  /*margin: 2%;*/
-  height: 500px;
+  margin: 2%;
   text-align: center;
   color: white;
 }
 
 #css, #design, #ruby, #rails, #cSharp, #net, #java, #android, #php, #react, #php, #drupal {
   display: none;
+  border-bottom: 5px solid #6C6C6C;
 }
