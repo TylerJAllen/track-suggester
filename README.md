@@ -12,7 +12,7 @@ _A survey to determine which track at Epicodus is best for you._
 
 * _Git clone the repository_
 * _Open index.html in web browser_
-*_Or click https://tylerjallen.github.io/track-suggester to view in web browser_
+* _Or click https://tylerjallen.github.io/track-suggester to view in web browser_
 
 
 ## Known Bugs
